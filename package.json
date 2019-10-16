@@ -1,0 +1,8 @@
+{
+  "name": "vue-cli-plugin-build-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dreamllq/vue-cli-plugin-build-lib.git",
+  "author": "lvliqi <lvliqi_d@163.com>",
+  "license": "MIT"
+}
