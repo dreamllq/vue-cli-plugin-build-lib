@@ -11,5 +11,14 @@ module.exports = (api, options, rootOptions) => {
         ],
     })
 
+    api._injectFileMiddleware(function (files) {
+        delete files['public/favicon.ico'];
+        delete files['public/index.html'];
+        delete files['src/assets/logo.png'];
+        delete files['src/components/HelloWorld.vue'];
+        delete files['src/App.vue'];
+        delete files['src/main.js'];
+    });
+
     api.render('./template')
 }
