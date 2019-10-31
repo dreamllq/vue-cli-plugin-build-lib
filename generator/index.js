@@ -10,6 +10,22 @@ module.exports = (api, options, rootOptions) => {
       "dist/*",
       "src/index.vue"
     ],
+    "peerDependencies": {
+      "element-ui": ">= 2.12.0",
+      "vue": ">=2.6.10",
+      "axios": ">=0.19.0",
+      "lodash": ">=4.17.15",
+      "moment": ">=2.24.0",
+      "vue-template-compiler": ">=2.6.10"
+    },
+    "devDependencies": {
+      "axios": "^0.19.0",
+      "core-js": "^3.3.2",
+      "element-ui": "^2.12.0",
+      "lodash": "^4.17.15",
+      "moment": "^2.24.0",
+      "vue": "^2.6.10"
+    }
   })
 
   api._injectFileMiddleware(function (files) {
