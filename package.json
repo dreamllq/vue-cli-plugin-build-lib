@@ -6,6 +6,6 @@
   "author": "lvliqi <lvliqi_d@163.com>",
   "license": "MIT",
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish --registry=https://registry.npmjs.org/"
   }
 }
