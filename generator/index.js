@@ -3,7 +3,7 @@ module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     scripts: {
       "build": "vue-cli-service build --target lib --name lib --formats umd,umd-min  src/index.js --report",
-      "postversion": "npm run build && git push && git push --tags && npm publish"
+      "postversion": "yarn build && git push && git push --tags && npm publish"
     },
     "main": "dist/lib.umd.min.js",
     "files": [
